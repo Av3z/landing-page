@@ -1,0 +1,61 @@
+
+body, html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+}
+
+.button-green button{
+    text-decoration: none;
+    border-color: #00BFA6;
+    background-color: #00BFA6;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+}
+
+.button-green button:hover{
+    background-color: white;
+    color: #18a391;
+    border-color: #00BFA6;
+}
+
+.button-red button{
+    text-decoration: none;
+    border-color: #424242;
+    background-color: #424242;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+}
+
+.button-red button:hover{
+    background-color: white;
+    color: #424242;
+    border-color: #424242;
+}
+#account a{
+    text-decoration: none;
+    color: #159c8a;
+}
+
+.paddingForm{
+    padding-right: 6rem;
+    padding-left: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.form:focus{
+    border-color:#159c8a;
+    box-shadow: 0 0 0 0.1rem #159c8a;
+}
+
+@media screen and (max-width: 380px) {
+    .mobile-hide{ 
+        display: none !important; 
+    }
+    
+}
+

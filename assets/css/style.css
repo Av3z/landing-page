@@ -1,0 +1,159 @@
+.modal {
+    width: 300px;
+}
+
+.modal-content {
+    width: 300px;
+}
+.list-group-item:hover{
+
+    background-color: rgba(87, 87, 87, 0.11);
+}
+.vertical-nav{
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    position:fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.11);
+    transition: all 0.4s;
+}
+
+.login-center{
+    position: absolute;
+    top:50%;
+    left: 50%;
+}
+
+.button{
+
+    border-color: #00BFA6;
+    background-color: #00BFA6;
+    color: white;
+
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    
+}
+
+.button:hover{
+
+    border-color: #139e8c;
+    color: #219182;
+    background-color: rgb(211,211,211);
+
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+    
+}
+
+#slider h1{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#about h1{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#contact h1{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+
+.block{
+    margin-bottom: 5rem;
+}
+
+.block-p{
+    padding-bottom: 5rem;
+}
+
+#about .materials-icons{
+    border-radius: 20px;
+}
+
+#about p {
+    font-weight: 600;
+}
+
+.icon i{
+    padding: 10px;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+#about .card-body{
+    padding: 2.5rem;
+}
+
+#footer .container-fluid{
+    margin-top: 1.2rem;
+    
+
+}
+#navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-fixed{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.up{
+    padding-top: 2rem;
+}
+
+.bold-1{
+    font-weight: 100;
+}
+.bold-2{
+    font-weight: 200;
+}
+.bold-3{
+    font-weight: 300;
+}
+.bold-4{
+    font-weight: 400;
+}
+.bold-5{
+    font-weight: 500;
+}
+.bold-6{
+    font-weight: 600;
+}
+.bold-7{
+    font-weight: 700;
+}
+.bold-8{
+    font-weight: 800;
+}
+.bold-9{
+    font-weight: 900;
+}
+
+.pad {
+    padding: 1.5rem;
+}
+
+.fca{
+    font-size: 2rem;
+}
+
+#menu a{
+    text-decoration: none;
+    color: black;
+}
+#menu a:hover{
+
+    border-bottom: 1px solid green;
+}
